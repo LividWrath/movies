@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 please create a file in the project root called .env and add the api as follow
 
-REACT_APP_API_KEY = <API KEY HERE>
+REACT_APP_API_KEY = API_KEY_HERE
 
 ## Available Scripts
 
