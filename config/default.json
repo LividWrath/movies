@@ -1,0 +1,9 @@
+{
+    "apiKey":"91bee8f873e0474ac3813694ed19b56d",
+    "urls":{
+        "popular":"http://api.themoviedb.org/3/movie/popular?api_key=",
+        "imageBase":"http://image.tmdb.org/t/p/"
+    },
+    "imageSizes":["w92", "w154", "w185", "w342","w500", "w780",  "original"]
+    
+}

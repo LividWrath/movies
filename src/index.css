@@ -1,0 +1,67 @@
+@import '~antd/dist/antd.css';
+.fillparent {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.white {
+color: white
+}
+.float-left{
+  float: left;
+}
+a{
+  text-decoration: none
+}
+.poster{
+  float: left;
+}
+.details{
+  float: right;
+  font-size: 1.5em;
+  width: 50%;
+}
+.gridStyle{
+  width: 50%;
+  text-align: center;
+};
+.clear-both{
+  clear: both;
+}
+.margin-seven{
+margin:7px;
+}
+.padding-five{
+  padding:5px;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.movie-header{
+  margin: 0;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0;
+  color: white;
+  background: cadetblue;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: inherit;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: 1.7em
+}
+.movie-body{
+  background-color: white;
+}
+
+.background-black{
+  background-color: black
+}
+.background-white{
+  background-color: white
+}
+.sans {
+  font-family: sans-serif;
+}
