@@ -41,20 +41,19 @@ export default function MovieDetailsPage(props) {
       </div>
       <div className="movie-body padding-five">
         <div className="poster float-left">
-          <img className="poster-img" src={movie.poster_path} alt="poster" />
+          <img className="poster-img fillparent" src={movie.poster_path} alt="poster" />
         </div>
-        <Card style={{ width: "50%", float: "right" }}>
+        <Card style={{ maxWidth: "48%", float: "right" }}>
           <Card.Grid className="gridStyle">
             {new Date(movie.release_date).getFullYear()}
           </Card.Grid>
           <Card.Grid className="gridStyle"> {movie.runtime} min</Card.Grid>
           <Card.Grid className="gridStyle"> {movie.vote_average}/10</Card.Grid>
         </Card>
-
         <Button
           type="primary"
           size="large"
-          style={{ width: "50%", float: "right" }}
+          style={{ width:"48%", fontSize: "1em" ,maxWidth: "48%", float: "right" }}
         >
           MARK AS FAVORITE
         </Button>
